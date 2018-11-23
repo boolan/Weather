@@ -1,0 +1,31 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.boolanWeather.controller.Main" displayBlock="true">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <ObjectHeader title="{/country}" intro="{/city}" introActive="true" titleActive="true" id="__header0"/>
+				    <Table noDataText="Drop column list items here and columns in the area above" items="{/items}" columns="{/cols}" id="__table0">
+				        <items>
+				            <ColumnListItem counter="0" id="__item0">
+				                <cells>
+				                    <Text text="{date}" maxLines="0"/>
+				                    <Text text="{temp}" maxLines="0"/>
+				                    <Text text="{units}" maxLines="0"/>
+				                    <Text text="{humidity}" maxLines="0"/>
+				                </cells>
+				                    
+				            </ColumnListItem>
+				        </items>
+				        <columns>
+				            <Column>
+				                <header>
+				                    <Label text="{name}"/>
+				                </header>
+				            </Column>
+				        </columns>
+				    </Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

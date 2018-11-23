@@ -1,0 +1,62 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "ES4",
+          "destinations": "ES4"
+        }
+      ],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "id": 2281363,
+        "runnerId": "webapprunner",
+        "displayName": "App",
+        "lastRunTimeStamp": 1489576355363
+      }
+    },
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 0,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": "1.44.6",
+      "isDefaultVersion": 1,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "OpenWeather",
+          "destinations": ""
+        }
+      ],
+      "urlParametersNotNeeded": false,
+      "appsVersion": [],
+      "_metadata": {
+        "id": 1120866,
+        "runnerId": "webapprunner",
+        "displayName": "Run index.html",
+        "lastRunTimeStamp": 1489567622444
+      }
+    }
+  ]
+}
